@@ -1,0 +1,57 @@
+:root {
+  --primary: #2b6777;
+  --secondary: #c8d8e4;
+  --c: #ffffff;
+  --background: #f2f2f2;
+  --pop: #52ab98;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+}
+
+h1 {
+  font-size: 1.5em;
+  padding-left: 0.5rem;
+}
+
+.card {
+  background-color: var(--secondary);
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 50vw;
+}
+
+main {
+  text-align: left;
+}
+
+.partner {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: var(--c);
+  gap: 0.5rem;
+  border-bottom: 2px solid var(--pop);
+}
+
+.partner > input {
+  max-width: 80%;
+  margin-left: 0.5rem;
+}
+
+.partner > h3 {
+  margin-top: 0;
+}
+
+.summary {
+  padding-left: 0.5rem;
+  background-color: var(--c);
+}
